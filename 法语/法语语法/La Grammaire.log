@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.6)  1 JUL 2025 19:22
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.6)  1 JUL 2025 19:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1202,12 +1202,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1496--1496
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1496--1496
-[]|\TU/TeXGyrePagellaX(0)/b/n/9.03374 Present
+[]|\TU/TeXGyrePagellaX(0)/b/n/9.03374 Imperfect
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1496--1496
-[]|\TU/TeXGyrePagellaX(0)/b/n/9.03374 Imperfect
+Overfull \hbox (5.5196pt too wide) in paragraph at lines 1496--1496
+[]|\TU/TeXGyrePagellaX(0)/b/n/9.03374 Present\TU/TeXGyrePagellaX(0)/m/n/9.03374 [\TU/TeXGyrePagellaX(0)/b/n/9.03374 FUT\TU/TeXGyrePagellaX(0)/m/n/9.03374 ]| 
  []
 
 
