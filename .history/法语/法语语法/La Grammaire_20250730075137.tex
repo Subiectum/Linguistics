@@ -38,9 +38,10 @@
 \titlespacing*{\paragraph}
 {0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 
+\titleformat{\subsubsection}
+{\normalfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
 
-
-
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
 
 \usepackage{enumitem}
 \renewlist{enumerate}{enumerate}{10}

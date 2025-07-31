@@ -38,7 +38,17 @@
 \titlespacing*{\paragraph}
 {0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 
+\usepackage{chngcntr}
 
+% 解除 section/subsection/subsubsection 对 chapter 的依赖
+\counterwithout{section}{chapter}
+\counterwithout{subsection}{chapter}
+\counterwithout{subsubsection}{chapter}
+
+% 修改编号显示格式（保留 section.subsection.subsubsection 结构）
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+\renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
 
 
 

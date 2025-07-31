@@ -38,9 +38,14 @@
 \titlespacing*{\paragraph}
 {0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 
+\titleformat{\subsubsection}
+{\normalfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
 
-
-
+\usepackage{chngcntr}
+\counterwithout{section}{chapter}
+\counterwithout{subsection}{chapter}
+\counterwithout{subsubsection}{chapter}
+\counterwithout{paragraph}{chapter}
 
 \usepackage{enumitem}
 \renewlist{enumerate}{enumerate}{10}
